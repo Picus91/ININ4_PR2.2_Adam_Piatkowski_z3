@@ -20,9 +20,19 @@ namespace NET_ININ4_PR2._2_z4
     /// </summary>
     public partial class MainWindow : Window
     {
+        Model model = new Model();
         public MainWindow()
         {
+            DataContext = model;
             InitializeComponent();
+        }
+
+        private void Szczegóły(object sender, RoutedEventArgs e)
+        {
+            ListBox lista = (ListBox)this.FindName("ListaOsób");
+            Osoba wybrana = (Osoba)lista.SelectedItem;
+            if(wybrana!=null)
+                new WidokOsoby(wybrana).Show();
         }
     }
 }
