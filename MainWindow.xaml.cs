@@ -34,5 +34,12 @@ namespace NET_ININ4_PR2._2_z4
             if(wybrana!=null)
                 new WidokOsoby(wybrana).Show();
         }
+
+        private void Dodaj(object sender, RoutedEventArgs e)
+        {
+            new WidokOsoby(
+                model.NowaOsoba()
+                ).Show();
+        }
     }
 }

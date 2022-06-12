@@ -41,7 +41,7 @@
         </Button>
         <Button
             Grid.Column="1"
-            Grid.Row="1"
+            Grid.Row="1" Click="Dodaj"
             >
             Dodaj
         </Button>
