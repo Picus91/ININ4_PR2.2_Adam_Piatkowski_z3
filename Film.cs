@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace NET_ININ4_PR2._2_z4
+namespace Zadanie4_Adam_Piatkowski
 {
     public class Film : INotifyPropertyChanged
     {
@@ -90,7 +90,7 @@ namespace NET_ININ4_PR2._2_z4
 
         public string SkrótInformacji
         {
-            get => $"{Tytuł}.\nWyreżyserowany przez {Reżyser}.\nPremiere miał: {DataWydania.ToString("d")}";
+            get => $"{Tytuł}\n{Reżyser}";
         }
     }
 }

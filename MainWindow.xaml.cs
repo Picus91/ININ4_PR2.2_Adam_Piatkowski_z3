@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NET_ININ4_PR2._2_z4
+namespace Zadanie4_Adam_Piatkowski
 {
     /// <summary>
     /// Logika interakcji dla klasy MainWindow.xaml
@@ -27,7 +27,7 @@ namespace NET_ININ4_PR2._2_z4
             InitializeComponent();
         }
 
-       private void Szczegóły(object sender, RoutedEventArgs e)
+       private void Edytuj(object sender, RoutedEventArgs e)
        {
            ListBox lista = (ListBox)this.FindName("ListaFilmów");
            Film wybranyFilm = (Film)lista.SelectedItem;
@@ -37,9 +37,7 @@ namespace NET_ININ4_PR2._2_z4
 
        private void Dodaj(object sender, RoutedEventArgs e)
        {
-           new WidokFilmu(
-               model.NowyFilm()
-               ).Show();
+           new WidokFilmu(model.NowyFilm()).Show();
        }
     }
 }
