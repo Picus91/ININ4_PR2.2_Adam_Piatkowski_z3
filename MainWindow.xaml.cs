@@ -27,19 +27,19 @@ namespace NET_ININ4_PR2._2_z4
             InitializeComponent();
         }
 
-        private void Szczegóły(object sender, RoutedEventArgs e)
-        {
-            ListBox lista = (ListBox)this.FindName("ListaOsób");
-            Osoba wybrana = (Osoba)lista.SelectedItem;
-            if(wybrana!=null)
-                new WidokOsoby(wybrana).Show();
-        }
+       private void Szczegóły(object sender, RoutedEventArgs e)
+       {
+           ListBox lista = (ListBox)this.FindName("ListaFilmów");
+           Film wybranyFilm = (Film)lista.SelectedItem;
+           if(wybranyFilm != null)
+               new WidokFilmu(wybranyFilm).Show();
+       }
 
-        private void Dodaj(object sender, RoutedEventArgs e)
-        {
-            new WidokOsoby(
-                model.NowaOsoba()
-                ).Show();
-        }
+       private void Dodaj(object sender, RoutedEventArgs e)
+       {
+           new WidokFilmu(
+               model.NowyFilm()
+               ).Show();
+       }
     }
 }

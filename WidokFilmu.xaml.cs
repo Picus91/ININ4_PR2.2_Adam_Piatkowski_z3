@@ -15,13 +15,13 @@ using System.Windows.Shapes;
 namespace NET_ININ4_PR2._2_z4
 {
     /// <summary>
-    /// Logika interakcji dla klasy WidokOsoby.xaml
+    /// Interaction logic for WidokFilmu.xaml
     /// </summary>
-    public partial class WidokOsoby : Window
+    public partial class WidokFilmu : Window
     {
-        public WidokOsoby(Osoba osoba)
+        public WidokFilmu(Film film)
         {
-            DataContext = osoba;
+            DataContext = film;
             InitializeComponent();
         }
 
