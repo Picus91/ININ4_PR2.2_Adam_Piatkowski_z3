@@ -87,5 +87,10 @@ namespace NET_ININ4_PR2._2_z4
                 OnPropertyChanged();
             }
         }
+
+        public string SkrótInformacji
+        {
+            get => $"{Tytuł}.\nWyreżyserowany przez {Reżyser}.\nPremiere miał: {DataWydania.ToString("d")}";
+        }
     }
 }
