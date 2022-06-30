@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Zadanie4_Adam_Piatkowski
+namespace Zadanie3_Adam_Piatkowski
 {
     /// <summary>
     /// Interaction logic for WidokFilmu.xaml

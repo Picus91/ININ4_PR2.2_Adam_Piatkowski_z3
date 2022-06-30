@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Zadanie4_Adam_Piatkowski
+namespace Zadanie3_Adam_Piatkowski
 {
     /// <summary>
     /// Logika interakcji dla klasy MainWindow.xaml

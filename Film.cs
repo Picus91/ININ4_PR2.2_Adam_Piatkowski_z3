@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Zadanie4_Adam_Piatkowski
+namespace Zadanie3_Adam_Piatkowski
 {
     public class Film : INotifyPropertyChanged
     {

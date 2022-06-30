@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Zadanie4_Adam_Piatkowski
+namespace Zadanie3_Adam_Piatkowski
 {
     internal class Model
     {

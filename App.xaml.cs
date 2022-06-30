@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Zadanie4_Adam_Piatkowski
+namespace Zadanie3_Adam_Piatkowski
 {
     /// <summary>
     /// Logika interakcji dla klasy App.xaml
